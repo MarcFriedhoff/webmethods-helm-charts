@@ -4,3 +4,4 @@
 # helm
 Chart.lock
 *.tgz
+*.tmp
