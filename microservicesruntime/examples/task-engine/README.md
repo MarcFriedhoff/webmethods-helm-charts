@@ -1,14 +1,12 @@
-# Process Engine Deployment
+# Task Engine Deployment
 
-Following values (application.properties) can be used to deploy MSR as Process Engine. 
+Following values (application.properties) can be used to deploy MSR as Task Engine. 
 
 ## Prerequisites
 
 You need an already created container image with ...
 * Microservices Runtime
 * External Database Drivers
-* Process Engine (WmPRT package)
-* Monitor (WmMonitor package)
 
 To create an image, you should use the product codes `MSC,wmprt,PIEContainerExternalRDBMS,Monitor`.
 

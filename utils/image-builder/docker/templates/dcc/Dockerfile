@@ -1,5 +1,5 @@
 ARG BASE_IMAGE
-FROM ${BASE_IMAGE} as INSTALL
+FROM ${BASE_IMAGE} 
 
 RUN useradd -ms /bin/bash sagadmin && \
     mkdir -p /opt/softwareag && \
